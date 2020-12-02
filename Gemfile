@@ -64,3 +64,6 @@ gem 'dotenv'
 
 # Install Rack Core : To access our API from a different URL, we need to install the rack-cors gem
 gem 'rack-cors'
+
+# Adding JSON:API : We'll use the jsonapi-rails gem to return our models as valid JSON:API objects
+gem 'jsonapi-rails'
