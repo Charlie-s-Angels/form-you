@@ -61,3 +61,6 @@ gem 'devise-jwt', '~> 0.7.0'
 
 # Adding DotEnv Gem
 gem 'dotenv'
+
+# Install Rack Core : To access our API from a different URL, we need to install the rack-cors gem
+gem 'rack-cors'
