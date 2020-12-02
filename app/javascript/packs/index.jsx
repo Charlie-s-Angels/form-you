@@ -7,11 +7,13 @@ import ReactDOM from "react-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Home from "./pages/Home";
+import Navbar from './components/Navbar/'
 
 const App = () => {
   return (
     <main>
       <Router>
+      <Navbar />
         <Switch>
           <Route exact path="/">
             <Home />
