@@ -55,3 +55,9 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 # Installing Gem Devise For User Connection
 gem 'devise'
+
+# Installing Gem Token Authentication JWT 
+gem 'devise-jwt', '~> 0.7.0'
+
+# Adding DotEnv Gem
+gem 'dotenv'
