@@ -1,9 +1,6 @@
-const login = () => {
+const login = ({ email, password }) => {
   const data = {
-    user: {
-      email: "test@yopmail.com",
-      password: "password"
-    }
+    user: { email, password }
   };
 
   console.log('start');
@@ -11,7 +8,7 @@ const login = () => {
     method: 'post',
     headers: {
       'Content-Type': 'application/json',
-      'Authorization': `eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI1Iiwic2NwIjoidXNlciIsImF1ZCI6bnVsbCwiaWF0IjoxNjA3MDA1OTEyLCJleHAiOjE2MDcwOTIzMTIsImp0aSI6Ijc3ZmRiYmU4LWY5MGItNGE4NC05N2EyLWRlNGVlNmYyNTFhMSJ9.JOv1XUy2V8wofacLTYFp6wQLnDuGg-quya2g3x9xoNM`
+      'Authorization': `${token}`
     },
     body: JSON.stringify(data)
   })
