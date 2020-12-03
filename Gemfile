@@ -67,3 +67,4 @@ gem 'rack-cors', :require => 'rack/cors'
 
 # Adding JSON:API : We'll use the jsonapi-rails gem to return our models as valid JSON:API objects
 gem 'jsonapi-rails'
+gem 'table_print'
